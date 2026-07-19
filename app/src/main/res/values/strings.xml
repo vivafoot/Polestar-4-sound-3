@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Polestar Virtual Sound</string>
+    <string name="mode_off">끄기</string>
+    <string name="mode_engine">6기통 엔진음</string>
+    <string name="mode_spaceship">우주선 사운드</string>
+    <string name="volume_label">볼륨</string>
+    <string name="speed_placeholder">속도: 0 km/h · 추정 RPM: 800</string>
+    <string name="speed_format">속도: %1$d km/h · 추정 RPM: %2$d</string>
+    <string name="power_on">사운드 ON</string>
+    <string name="power_off">사운드 OFF</string>
+    <string name="gps_waiting">GPS 신호 대기 중… (하늘이 트인 곳으로 이동해보세요)</string>
+    <string name="permission_needed">위치 권한이 필요합니다. 설정에서 허용해주세요.</string>
+</resources>
