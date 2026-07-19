@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#101014">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <RadioGroup
+        android:id="@+id/modeGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/radioOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_off"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="24dp" />
+
+        <RadioButton
+            android:id="@+id/radioEngine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_engine"
+            android:textColor="#FFFFFF"
+            android:checked="true"
+            android:layout_marginEnd="24dp" />
+
+        <RadioButton
+            android:id="@+id/radioSpaceship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mode_spaceship"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volume_label"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="4dp" />
+
+    <SeekBar
+        android:id="@+id/volumeSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/speedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speed_placeholder"
+        android:textColor="#00E5FF"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <ToggleButton
+        android:id="@+id/powerToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="@string/power_on"
+        android:textOff="@string/power_off"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
