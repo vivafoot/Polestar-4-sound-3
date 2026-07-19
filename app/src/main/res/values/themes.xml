@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.PolestarSound" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#00E5FF</item>
+        <item name="android:windowBackground">#101014</item>
+    </style>
+</resources>
